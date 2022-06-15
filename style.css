@@ -29,7 +29,7 @@ nav{
     background: white;
     padding:10px 30px;
     border-radius: 7px;
-    box-shadow: 1px 1px 1px 1px hsl(208,11%,55%);
+    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
     color:black;
 }
 .header-section{
@@ -41,14 +41,14 @@ nav{
     background: hsl(322,100%,66%);
     padding:10px 20px;
     border-radius: 20px;
-    box-shadow: 1px 0.5px 0.5px 1px hsl(208,11%,55%);
+    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
     color:white;
     
 }
 main{
     height:70%;
     display: flex;
-    gap:80px;
+    gap:60px;
     flex-direction: column;
     margin:60px 0px;
     padding:10px;
@@ -62,7 +62,7 @@ footer{
     height: 300px;
     border-radius:5px;
     align-items: center;
-    box-shadow: 1px 0.5px 0.5px 1px hsl(208,11%,55%);
+    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
 }
 .main-image{
     height:100%;
@@ -81,13 +81,13 @@ footer{
     flex-direction: column;
     place-items: center center;
     position: relative;
-    top: 280px;
+    top:280px;
     margin-left:300px;
     margin-right: 300px;
     background: white;
     border-radius: 10px;
     padding:20px 10px;
-    box-shadow: 1px 0.5px 0.5px 1px hsl(208,11%,55%);
+    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
 }
 footer{
     display:flex;
@@ -164,7 +164,7 @@ footer{
         border-radius:5px;
         flex-direction: column-reverse;
         align-items: center;
-        box-shadow: 1px 0.5px 0.5px 1px hsl(208,11%,55%);
+        box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
         text-align: center;
         padding:10px;
     }
@@ -187,8 +187,12 @@ footer{
         background: white;
         border-radius: 10px;
         padding:5px 3px;
-        box-shadow: 1px 0.5px 0.5px 1px hsl(208,11%,55%);
+        box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
         text-align: center;
     }
+  .main-image{
+    height:70%;
+    width:40%;
+}
     
 }
