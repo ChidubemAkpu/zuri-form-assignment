@@ -29,7 +29,7 @@ nav{
     background: white;
     padding:10px 30px;
     border-radius: 7px;
-    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
+    border:2px solid hsl(208,11%,55%);
     color:black;
 }
 .header-section{
@@ -41,7 +41,7 @@ nav{
     background: hsl(322,100%,66%);
     padding:10px 20px;
     border-radius: 20px;
-    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
+    border:2px solid hsl(208,11%,55%);
     color:white;
     
 }
@@ -62,7 +62,8 @@ footer{
     height: 300px;
     border-radius:5px;
     align-items: center;
-    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
+    padding: 10px;
+    border:2px solid hsl(208,11%,55%);
 }
 .main-image{
     height:100%;
@@ -87,7 +88,7 @@ footer{
     background: white;
     border-radius: 10px;
     padding:20px 10px;
-    box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
+    border:2px solid hsl(208,11%,55%);
 }
 footer{
     display:flex;
@@ -164,7 +165,7 @@ footer{
         border-radius:5px;
         flex-direction: column-reverse;
         align-items: center;
-        box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
+        border:2px solid hsl(208,11%,55%);
         text-align: center;
         padding:10px;
     }
@@ -187,7 +188,7 @@ footer{
         background: white;
         border-radius: 10px;
         padding:5px 3px;
-        box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
+        border:2px solid hsl(208,11%,55%);
         text-align: center;
     }
   .main-image{
