@@ -12,10 +12,11 @@ header{
     display: flex;
     flex-direction: column;
     gap:20px;
-    background: url("bg-hero-desktop.svg");
+    background: url("images/bg-hero-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
     padding:30px;
+    border-bottom:1px solid hsl(208,11%,55%);
 }
 #flow-conversation{
     display:flex;
@@ -100,19 +101,9 @@ footer{
     background:hsl(192,100%,9%);
     color:white;
 }
-.footer-logo{
-    background:white;
-    width:120px;
-    padding:5px 10px;
-    border-radius:10px;
-}
-.svg-icon{
-    background: white;
-    border-radius:100%;
-    padding:3px 5px;
-}
+
 .socials{
-    background: white;
+    /* background: white; */
     padding:5px 10px;
     border-radius: 100%;
 }
@@ -185,7 +176,7 @@ footer{
         top:240px;
         margin-left:60px;
         margin-right: 60px;
-        background: white;
+        /* background: white; */
         border-radius: 10px;
         padding:5px 3px;
         border:2px solid hsl(208,11%,55%);
@@ -194,6 +185,16 @@ footer{
   .main-image{
     height:70%;
     width:40%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background: url("images/bg-hero-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:30px;
+    border-bottom:1px solid hsl(208,11%,55%);
 }
     
 }
